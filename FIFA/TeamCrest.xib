@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamCrestCell" id="zkT-HC-aC0" customClass="TeamCrestCell" customModule="FIFA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zkT-HC-aC0" id="aX4-ZM-4WN">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TeamName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-cJ-HhY">
+                        <rect key="frame" x="16" y="12" width="82" height="19.5"/>
+                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.99659558309999996" blue="0.98338153949999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="W6T-cJ-HhY" firstAttribute="leading" secondItem="aX4-ZM-4WN" secondAttribute="leadingMargin" constant="8" id="Er8-fd-RPg"/>
+                    <constraint firstItem="W6T-cJ-HhY" firstAttribute="centerY" secondItem="aX4-ZM-4WN" secondAttribute="centerY" id="iH7-LF-Pxm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="teamNameLbl" destination="W6T-cJ-HhY" id="xAN-rc-vc7"/>
+            </connections>
+            <point key="canvasLocation" x="260" y="170"/>
+        </tableViewCell>
+    </objects>
+</document>
